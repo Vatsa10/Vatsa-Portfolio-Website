@@ -9,9 +9,16 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Vatsa Joshi | Portfolio",
-  description: "A modern portfolio website with wavy background animations",
+  description: "A modern portfolio website showcasing Vatsa Joshi's web development projects and skills",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-    generator: 'v0.dev'
+  icons: {
+    icon: [
+      { url: "/V.svg", type: "image/svg+xml" },
+      { url: "/V.svg", type: "image/svg+xml", sizes: "any" },
+    ],
+    apple: { url: "/V.svg", type: "image/svg+xml" },
+    shortcut: { url: "/V.svg" },
+  },
 }
 
 export default function RootLayout({
@@ -21,6 +28,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/V.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/V.svg" />
+      </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         <Navigation />
         <SocialSidebar />
@@ -29,7 +40,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
