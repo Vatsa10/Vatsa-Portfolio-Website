@@ -38,7 +38,7 @@ export default function Hero() {
           <div className="flex justify-center pt-6">
             <Button size="lg" className="bg-white text-black hover:bg-gray-200 text-base" onClick={handleResumeClick}>
               <FileText className="mr-2 h-5 w-5" />
-              Resume Spotlight
+              Check Out My Resume
             </Button>
           </div>
         </div>
