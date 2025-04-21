@@ -7,7 +7,7 @@ export default function Hero() {
   const handleResumeClick = () => {
     // Open resume in a new tab directly
     window.open(
-      "https://drive.google.com/file/d/1jQCaDelvcPrIqaTYD0Lmua6x6Eu4UScy/view?usp=sharing",
+      "https://drive.google.com/file/d/1gLSUdihpQILlUbTh-nGzkq_Jykr1_OaY/view?usp=sharing",
       "_blank",
       "noopener,noreferrer",
     )
