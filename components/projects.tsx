@@ -5,6 +5,13 @@ import { Github } from "lucide-react"
 import { motion } from "framer-motion"
 
 const projects = [
+    {
+    title: "WebRAG - Web-based RAG System",
+    description:
+      "An intelligent assistant that performs real-time web search, scrapes information, and allows users to ask questions about the fetched content using Retrieval-Augmented Generation (RAG) powered by Groq LLMs, LangChain, and Serper API.",
+    tags: ["Python", "GenAI", "LLM", "LangChain", "Web Scraping"],
+    githubUrl: "https://github.com/Vatsa10/WebRAG",
+  },
   {
     title: "Deepfake Video Detection System",
     description:
