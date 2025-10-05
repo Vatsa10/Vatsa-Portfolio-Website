@@ -3,14 +3,28 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
   {
+    title: "Deep Learning Intern",
+    company: "Prodigal AI, Delhi",
+    period: "March 2025 - May 2025",
+    description:
+      "Specialized in deep learning research and implementation, focusing on neural network architectures and computer vision applications under expert supervision.",
+    skills: ["Python", "TensorFlow", "PyTorch", "Keras", "Computer Vision", "Neural networks", "CNN", "RNN", "NLP"],
+    achievements: [
+      "Implemented convolutional neural networks for image classification tasks achieving 92% accuracy",
+      "Built and fine-tuned transformer models for natural language processing applications",
+      "Developed deep learning pipelines for real-time object detection using YOLO and SSD frameworks",
+    ],
+  },
+  {
     title: "AI/ML Intern",
     company: "Sparks To Ideas, Ahmedabad",
-    period: "Feb 2024 - Present",
+    period: "Feb 2025 - April 2025",
     description:
       "Collaborated with cross-functional teams to integrate AI/ML solutions into real-world applications.",
     skills: ["Tensorflow", "Github", "LLM", "PyTorch", "Data Analysis"],
     achievements: [
       "Made an AI chatbot",
+      "Trained XGboost for customer churn prediction with 95% accuracy",
     ],
   },
   {

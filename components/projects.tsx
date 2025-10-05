@@ -5,12 +5,33 @@ import { Github } from "lucide-react"
 import { motion } from "framer-motion"
 
 const projects = [
+  {
+    title: "See My Plan",
+    description:
+      "Visualize Architecture Plan with AI, build with Gemini and React. User uploads an architecture plan and the AI visualizes it. For image egenration, I leveraged Google's new SoTA Nano Banana model.",
+    tags: ["React", "GenAI", "LLM", "AI-Agent"],
+    githubUrl: "https://ai.studio/apps/drive/1or9hzJuq9eRrw-lB37j8fS4BTHfh3zw2",
+  },
+  {
+    title: "Multi Agentic Appointment Booking System",
+    description:
+      "Multi Agent Appointment Booking System - 3 Core Agents (Orchestrator Agent, Database Agent, and Notification Agent), on succesful appointment, the appointment gets added in spreadhseet and the confirmation gets sent by email.",
+    tags: ["Python", "GenAI", "LLM", "Flask", "AI-Agents", "Chatbot", "Sqlite"],
+    githubUrl: "https://github.com/Vatsa10/Booky",
+  },
     {
     title: "WebRAG - Web-based RAG System",
     description:
       "An intelligent assistant that performs real-time web search, scrapes information, and allows users to ask questions about the fetched content using Retrieval-Augmented Generation (RAG) powered by Groq LLMs, LangChain, and Serper API.",
     tags: ["Python", "GenAI", "LLM", "LangChain", "Web Scraping"],
     githubUrl: "https://github.com/Vatsa10/WebRAG",
+  },
+  {
+    title: "Flash-Banana: AI-Powered Creative Suite",
+    description:
+      "Flash-Banana is an advanced web application built with Next.js that harnesses Google's Gemini and Genkit to deliver a powerful AI-driven creative workflow. This comprehensive solution streamlines the process of image editing and advertisement creation through natural language processing.",
+    tags: ["Next.js", "GenAI", "LLM", "Genkit", "AI-Agents"],
+    githubUrl: "https://github.com/Vatsa10/flash-banana",
   },
   {
     title: "Deepfake Video Detection System",
