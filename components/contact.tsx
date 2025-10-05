@@ -35,15 +35,37 @@ export default function Contact() {
     },
   })
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
+  async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true)
-    // Simulate form submission
-    setTimeout(() => {
-      console.log(values)
+
+    // Immediately show success to user for better UX
+    setIsSubmitted(true)
+    form.reset()
+
+    // Continue processing in background without blocking UI
+    try {
+      const response = await fetch('https://formspree.io/f/meorzayz', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: values.name,
+          email: values.email,
+          message: values.message,
+        }),
+      })
+
+      if (!response.ok) {
+        console.error('Formspree submission failed:', response.status, response.statusText)
+        // Could show a toast notification here if you had a toast system
+      }
+    } catch (error) {
+      console.error('Error submitting to Formspree:', error)
+      // Could show a toast notification here if you had a toast system
+    } finally {
       setIsSubmitting(false)
-      setIsSubmitted(true)
-      form.reset()
-    }, 1000)
+    }
   }
 
   return (

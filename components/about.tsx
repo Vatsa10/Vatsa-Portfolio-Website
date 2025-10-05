@@ -12,7 +12,9 @@ const education = [
     description: "Specialized in Software Engineering and Artificial Intelligence",
     achievements: [
       "Pursuing a comprehensive curriculum focused on Computer technologies, gaining hands-on experience with advanced algorithms, programming, and data analysis to build cutting-edge machine learning solutions.",
-      "Research focus on Deep Learning and Blockchain",
+      "Research on Quantum Dot Memory",
+      "EfficientNetB7 & BiLSTM For Deepfake Detection",
+      "Stable Diffusion VAE for Image Generation"
     ],
   },
   {
@@ -70,7 +72,7 @@ export default function About() {
           </div>
 
           <div className="space-y-4 md:space-y-6">
-            <h3 className="text-xl md:text-2xl font-bold">Pre-Final Year CSE Graduate | Technology Enthusiast</h3>
+            <h3 className="text-xl md:text-2xl font-bold">Final Year CSE Graduate | Technology Enthusiast</h3>
             <p className="text-muted-foreground text-sm md:text-base">
             I am currently pursuing a Bachelor of Technology (BTech) in Computer Science at Navrachana University, Vadodara. 
             With a deep curiosity for technology and a passion for solving complex challenges, 
