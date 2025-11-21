@@ -43,7 +43,7 @@ const experiences = [
   {
     title: "Web Application Developer Intern,",
     company: "Jeenweb Technologists",
-    period: "May 2023 - July 2024",
+    period: "May 2023 - July 2023",
     description:
       "Assisted in the development of web applications and gained hands-on experience with modern web technologies.",
     skills: ["HTML", "CSS", "JavaScript", "React", "Git"],
