@@ -6,11 +6,10 @@ import { motion } from "framer-motion"
 
 const projects = [
   {
-    title: "See My Plan",
-    description:
-      "Visualize Architecture Plan with AI, build with Gemini and React. User uploads an architecture plan and the AI visualizes it. For image egenration, I leveraged Google's new SoTA Nano Banana model.",
-    tags: ["React", "GenAI", "LLM", "AI-Agent"],
-    githubUrl: "https://ai.studio/apps/drive/1or9hzJuq9eRrw-lB37j8fS4BTHfh3zw2",
+    title: "Rustformer",
+    description: "Transformer Architecture From Scratch In Rust",
+    tags: ["Rust", "Machine Learning", "Deep Learning", "Transformers"],
+    githubUrl: "https://github.com/Vatsa10/Rustformer",
   },
   {
     title: "Multi Agentic Appointment Booking System",
@@ -19,12 +18,49 @@ const projects = [
     tags: ["Python", "GenAI", "LLM", "Flask", "AI-Agents", "Chatbot", "Sqlite"],
     githubUrl: "https://github.com/Vatsa10/Booky",
   },
-    {
+  {
+    title: "Stock Analysis Agent",
+    description: "A multi-agent system for stock market analysis and insights generation. Currently in further development.",
+    tags: ["Python", "GenAI", "LLM", "AI-Agents", "Stock Market", "Finance"],
+    githubUrl: "https://github.com/Vatsa10/stock-agent",
+  },
+  {
+    title: "Ecommerce Agent",
+    description: "Multi-agent LLM-powered shopping assistant built with LangGraph that helps users discover products, compare prices, and make informed purchase decisions through WhatsApp.",
+    tags: ["Python", "GenAI", "LLM", "LangGraph", "E-commerce", "WhatsApp"],
+    githubUrl: "https://github.com/Vatsa10/ecomm-agent",
+  },
+  {
+    title: "Multi Agent Finance Advisor",
+    description: "Transform any financial document into actionable intelligence using advanced multi agent system with RAG (Retrieval-Augmented Generation). Analyze quarterly reports, SEC filings, 10-K/10-Q forms, earnings transcripts, and annual reports from companies worldwide.",
+    tags: ["Python", "GenAI", "LLM", "RAG", "Finance", "Document Analysis"],
+    githubUrl: "https://github.com/Vatsa10/Financial-Analyzer",
+  },
+  {
+    title: "Email AI Agent",
+    description: "A simple retrieval augmented generation (RAG) system that lets you collect emails, upload documents, generate embeddings, and chat with GPT to extract useful information from your data.",
+    tags: ["Python", "GenAI", "LLM", "RAG", "Email", "GPT"],
+    githubUrl: "https://github.com/Vatsa10/email-ai-agent",
+  },
+  {
     title: "WebRAG - Web-based RAG System",
     description:
       "An intelligent assistant that performs real-time web search, scrapes information, and allows users to ask questions about the fetched content using Retrieval-Augmented Generation (RAG) powered by Groq LLMs, LangChain, and Serper API.",
     tags: ["Python", "GenAI", "LLM", "LangChain", "Web Scraping"],
     githubUrl: "https://github.com/Vatsa10/WebRAG",
+  },
+    {
+    title: "Fine-tuned Gemma 3",
+    description: "I fine-tuned Gemma 3 (4B) using Unsloth and LORA config on the FineTome-100k dataset by mlabonne to enhance its instruction-following capabilities, used Hugging Face Transformers on Google Colab, exploring model customization and performance optimization",
+    tags: ["Python", "Machine Learning", "Deep Learning", "Fine-tuning", "Gemma", "Unsloth", "LORA", "Hugging Face"],
+    githubUrl: "https://github.com/Vatsa10/Gemma3-Finetune",
+  },
+  {
+    title: "See My Plan",
+    description:
+      "Visualize Architecture Plan with AI, build with Gemini and React. User uploads an architecture plan and the AI visualizes it. For image egenration, I leveraged Google's new SoTA Nano Banana model.",
+    tags: ["React", "GenAI", "LLM", "AI-Agent"],
+    githubUrl: "https://ai.studio/apps/drive/1or9hzJuq9eRrw-lB37j8fS4BTHfh3zw2",
   },
   {
     title: "Flash-Banana: AI-Powered Creative Suite",
