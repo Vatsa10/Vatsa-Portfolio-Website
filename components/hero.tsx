@@ -14,7 +14,7 @@ export default function Hero() {
   }
 
   return (
-    <section id="home" className="relative min-h-screen">
+    <section id="home" className="relative h-screen w-full overflow-hidden">
       <WavyBackground
         colors={["#38bdf8", "#818cf8", "#c084fc", "#e879f9", "#22d3ee"]}
         waveWidth={50}
@@ -22,8 +22,8 @@ export default function Hero() {
         blur={10}
         speed="fast"
         waveOpacity={0.5}
-        className="max-w-4xl mx-auto px-4 py-24 md:py-32"
-        containerClassName="min-h-screen"
+        className="max-w-4xl mx-auto px-4"
+        containerClassName="h-full"
       >
         <div className="text-center space-y-6 relative z-10">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight">

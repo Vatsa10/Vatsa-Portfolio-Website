@@ -95,21 +95,21 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <a href="mailto:vatsajoshi2@gmail.com" className="flex items-start space-x-4 group">
                 <Mail className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <h4 className="font-medium text-sm md:text-base">Email</h4>
-                  <p className="text-muted-foreground text-xs md:text-sm">vatsajoshi2@gmail.com</p>
+                  <p className="text-muted-foreground text-xs md:text-sm group-hover:text-primary transition-colors">vatsajoshi2@gmail.com</p>
                 </div>
-              </div>
+              </a>
 
-              <div className="flex items-start space-x-4">
+              <a href="tel:+919737557799" className="flex items-start space-x-4 group">
                 <Phone className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <h4 className="font-medium text-sm md:text-base">Phone</h4>
-                  <p className="text-muted-foreground text-xs md:text-sm">+919737557799</p>
+                  <p className="text-muted-foreground text-xs md:text-sm group-hover:text-primary transition-colors">+91 97375 57799</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
@@ -215,7 +215,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 
