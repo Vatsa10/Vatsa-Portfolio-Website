@@ -72,18 +72,13 @@ export default function About() {
           </div>
 
           <div className="space-y-4 md:space-y-6">
-            <h3 className="text-xl md:text-2xl font-bold">Final Year CSE Graduate | Technology Enthusiast</h3>
+            <h3 className="text-xl md:text-2xl font-bold">Software Engineer | AI & Scalable Systems</h3>
             <p className="text-muted-foreground text-sm md:text-base">
-            I am currently pursuing a Bachelor of Technology (BTech) in Computer Science at Navrachana University, Vadodara. 
-            With a deep curiosity for technology and a passion for solving complex challenges, 
-            I enjoy exploring the intricate workings of modern computing. Beyond building technical expertise, 
-            I am committed to developing essential skills like effective communication, adaptability, and teamwork—qualities that are crucial in today’s 
-            fast-paced tech industry. I thrive on both academic and hands-on learning, always eager to apply engineering principles in real-world scenarios.
+              I am a Software Engineer 1 (Founders Office) at Promact, bridging the gap between strategic product vision and deep technical execution.
+              As a Computer Science undergraduate with a strong track record in the AI and SaaS industries, I specialize in building emerging agentic systems and scalable web infrastructure. My experience spans the entire development lifecycle—from architecting low-level model implementations to deploying production-grade full-stack applications.
             </p>
             <p className="text-muted-foreground text-sm md:text-base">
-            Recently, I secured 2nd place in a hackathon, where I worked on a Deep Fake Detection System using AI and ML. 
-            This experience reinforced my problem-solving skills and deepened my understanding of cutting-edge technologies. 
-            I am always open to new learning opportunities and excited to take on challenges that push my boundaries.
+              I bring a founder’s mindset to engineering, focusing on shipping complete, end-to-end solutions that solve complex real-world problems. Whether optimizing deep learning models or designing distributed backend systems, I am driven by the challenge of turning theoretical concepts into reliable, high-performance software.
             </p>
           </div>
         </div>

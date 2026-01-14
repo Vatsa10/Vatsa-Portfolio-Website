@@ -3,6 +3,31 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
   {
+    title: "Founders OfficeSoftware Engineer - 1",
+    company: "Promact, Vadodara",
+    period: "Jan 2026 - Present",
+    description:
+      "Working on client-facing and internal engineering initiatives under the Founders Office.",
+    skills: ["Applied AI", "Intelligent Systems", "Software Architecture"],
+    achievements: [
+      "Contributing to the development and delivery of production-ready software solutions involving applied AI and intelligent system components",
+      "Collaborating on internal engineering initiatives under the Founders Office",
+    ],
+  },
+  {
+    title: "Full Stack Developer Intern",
+    company: "Hiraeth Tech, Vadodara",
+    period: "Jun 2025 - Dec 2025",
+    description:
+      "Contributed full-stack expertise by developing and maintaining both frontend interfaces and backend APIs, ensuring seamless integration and user experience.",
+    skills: ["NestJS", "Node.js", "Next.js", "PostgreSQL", "LLM", "Vector Search", "RESTful API"],
+    achievements: [
+      "Leveraging frameworks and libraries such as NestJS, Node.js, Next.js and PostgreSQL to build efficient, maintainable products",
+      "Integrated LLM-based services and vector search into the web stack, enabling intelligent, context-aware features for end users",
+      "Managing version control, database integration, and RESTful API development for various projects",
+    ],
+  },
+  {
     title: "Deep Learning Intern",
     company: "Prodigal AI, Delhi",
     period: "March 2025 - May 2025",
