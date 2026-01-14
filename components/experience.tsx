@@ -1,5 +1,10 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 const experiences = [
   {
@@ -92,45 +97,53 @@ export default function Experience() {
           <div className="h-1 w-20 bg-primary mx-auto mt-4"></div>
         </div>
 
-        <div className="space-y-4 md:space-y-8">
-          {experiences.map((exp, index) => (
-            <Card key={index} className="group hover:shadow-lg transition-shadow">
-              <CardHeader className="p-4 md:p-6">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 md:gap-4">
-                  <div>
-                    <CardTitle className="text-lg md:text-xl lg:text-2xl">{exp.title}</CardTitle>
-                    <CardDescription className="text-base md:text-lg text-primary mt-1">{exp.company}</CardDescription>
+        <div className="max-w-4xl mx-auto">
+          <Accordion type="single" collapsible className="w-full space-y-4">
+            {experiences.map((exp, index) => (
+              <AccordionItem
+                key={index}
+                value={`item-${index}`}
+                className="border rounded-lg px-4 bg-card"
+              >
+                <AccordionTrigger className="hover:no-underline py-4">
+                  <div className="flex flex-col md:flex-row md:items-center text-left w-full gap-2 pr-4 justify-between">
+                    <div>
+                      <h3 className="font-semibold text-lg md:text-xl">{exp.title}</h3>
+                      <p className="text-sm md:text-base text-primary/80">{exp.company}</p>
+                    </div>
+                    <Badge variant="secondary" className="w-fit text-xs whitespace-nowrap">
+                      {exp.period}
+                    </Badge>
                   </div>
-                  <Badge variant="secondary" className="w-fit text-xs">
-                    {exp.period}
-                  </Badge>
-                </div>
-              </CardHeader>
-              <CardContent className="p-4 pt-0 md:p-6 md:pt-0 space-y-3 md:space-y-4">
-                <p className="text-muted-foreground text-sm md:text-base">{exp.description}</p>
+                </AccordionTrigger>
+                <AccordionContent className="pt-2 pb-4">
+                  <div className="space-y-4">
+                    <p className="text-muted-foreground text-sm md:text-base">{exp.description}</p>
 
-                <div>
-                  <h4 className="font-semibold mb-1 md:mb-2 text-sm md:text-base">Key Achievements:</h4>
-                  <ul className="list-disc list-inside space-y-1 text-muted-foreground text-xs md:text-sm">
-                    {exp.achievements.map((achievement, i) => (
-                      <li key={i}>{achievement}</li>
-                    ))}
-                  </ul>
-                </div>
+                    <div>
+                      <h4 className="font-semibold mb-2 text-sm md:text-base">Key Achievements:</h4>
+                      <ul className="list-disc list-inside space-y-1 text-muted-foreground text-xs md:text-sm">
+                        {exp.achievements.map((achievement, i) => (
+                          <li key={i}>{achievement}</li>
+                        ))}
+                      </ul>
+                    </div>
 
-                <div>
-                  <h4 className="font-semibold mb-1 md:mb-2 text-sm md:text-base">Technologies:</h4>
-                  <div className="flex flex-wrap gap-1 md:gap-2">
-                    {exp.skills.map((skill) => (
-                      <Badge key={skill} variant="outline" className="text-xs">
-                        {skill}
-                      </Badge>
-                    ))}
+                    <div>
+                      <h4 className="font-semibold mb-2 text-sm md:text-base">Technologies:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {exp.skills.map((skill) => (
+                          <Badge key={skill} variant="outline" className="text-xs">
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </div>
     </section>
