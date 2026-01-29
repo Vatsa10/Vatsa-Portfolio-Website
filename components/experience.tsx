@@ -8,18 +8,6 @@ import {
 
 const experiences = [
   {
-    title: "Founders OfficeSoftware Engineer - 1",
-    company: "Promact, Vadodara",
-    period: "Jan 2026 - Present",
-    description:
-      "Working on client-facing and internal engineering initiatives under the Founders Office.",
-    skills: ["Applied AI", "Intelligent Systems", "Software Architecture"],
-    achievements: [
-      "Contributing to the development and delivery of production-ready software solutions involving applied AI and intelligent system components",
-      "Collaborating on internal engineering initiatives under the Founders Office",
-    ],
-  },
-  {
     title: "Full Stack Developer Intern",
     company: "Hiraeth Tech, Vadodara",
     period: "Jun 2025 - Dec 2025",

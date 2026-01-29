@@ -15,11 +15,17 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
+  },
+  swcMinify: true,
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production",
   },
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
+    optimizeCss: true,
   },
 }
 

@@ -5,7 +5,7 @@ import "./globals.css"
 import Navigation from "@/components/navigation"
 import SocialSidebar from "@/components/social-sidebar"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"], display: "swap" })
 
 export const metadata: Metadata = {
   title: "Vatsa Joshi | Portfolio",

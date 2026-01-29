@@ -33,15 +33,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto px-4">
-            Building Agentic AI & Scalable Systems{" "}
-            <a
-              href="https://promactinfo.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-blue-300 transition-colors"
-            >
-              @Promact
-            </a>
+            Building Agentic AI & Scalable Systems
           </p>
           <div className="flex justify-center pt-6">
             <Button size="lg" className="bg-white text-black hover:bg-gray-200 text-base" onClick={handleResumeClick}>

@@ -72,9 +72,9 @@ export default function About() {
           </div>
 
           <div className="space-y-4 md:space-y-6">
-            <h3 className="text-xl md:text-2xl font-bold">Software Engineer | AI & Scalable Systems</h3>
+            <h3 className="text-xl md:text-2xl font-bold">Full Stack AI Engineer</h3>
             <p className="text-muted-foreground text-sm md:text-base">
-              I am a Software Engineer 1 (Founders Office) at Promact, bridging the gap between strategic product vision and deep technical execution.
+              I am pursuing a BTech in Computer Science, bridging the gap between strategic product vision and deep technical execution.
               As a Computer Science undergraduate with a strong track record in the AI and SaaS industries, I specialize in building emerging agentic systems and scalable web infrastructure. My experience spans the entire development lifecycle—from architecting low-level model implementations to deploying production-grade full-stack applications.
             </p>
             <p className="text-muted-foreground text-sm md:text-base">
